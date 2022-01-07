@@ -34,3 +34,5 @@ console.log(names_new.sort());
 console.log(names_new.reverse());
 
 let myarray=["hi","hello","how","are","you"];
+
+console.log("Updated file ");
