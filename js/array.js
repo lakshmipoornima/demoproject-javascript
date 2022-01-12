@@ -34,5 +34,11 @@ console.log(names_new.sort());
 console.log(names_new.reverse());
 
 let myarray=["hi","hello","how","are","you"];
+let s1=" hi hello how are you?"
+console.log(s1);
+let words=s1.split(" ");
+let hwords=s1.split("h");
+console.log(words);
+console.log(hwords);
 
 console.log("Updated file ");

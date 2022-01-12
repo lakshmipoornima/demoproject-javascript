@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input type="text" placeholder="Enter the mobile number" id="data">
+<button onclick="checkInput()">check</button>
+
+    <script >
+        function checkInput(){
+            let regex=/^[a-zA-Z]+\w*\W*@(gmail.com|yahoo.com)$/g;
+            let userinput=document.getElementById("data").value;
+            if(regex.test(userinput))
+                alert(" Valid email id");
+                else
+                alert("Invalid email id");
+            
+            
+            console.log(userinput.match(regex));
+        }
+
+
+    </script>
+    
+</body>
+</html>
